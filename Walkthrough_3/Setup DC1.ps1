@@ -4,7 +4,7 @@ Run one line at a time, under supervision!
 #>
 
 # Set the forest name
-$FOREST = 'ads.solarsubmaines.com'
+$FOREST = 'ads.solarsubmarines.com'
 
 # Name the first DC computer
 Rename-Computer -NewName dc-1
