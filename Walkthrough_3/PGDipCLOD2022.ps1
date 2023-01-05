@@ -2,7 +2,7 @@
 $ADUsers = Import-csv C:\Powershell\WT3\PGDipCLOD2022.csv
 
 # Typo in the domain name!!!!
-$Organisation = "DC=ads,DC=solarsubmaines,DC=com"
+$Organisation = "DC=ads,DC=solarsubmarines,DC=com"
 $Classgroup = "PGDipCLOD2022"
 
 # Add OUs for User and for this specific group

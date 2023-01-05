@@ -12,7 +12,7 @@ New-NetIPAddress -InterfaceIndex 6 -IPAddress 172.28.78.2 -PrefixLength 22 -Defa
 # Set DC-1 as being the DNS
 Set-DnsClientServerAddress -InterfaceIndex 6 -ServerAddresses 172.28.78.1
 # Join the domain, you will be asked for dc-1 username and password
-add-computer –domainname "ads.solarsubmaines.com"  -restart
+add-computer –domainname "ads.solarsubmarines.com"  -restart
 # Now reboot
 Restart-Computer
 # Allow for remote scripting
