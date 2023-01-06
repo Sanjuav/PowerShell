@@ -54,9 +54,9 @@ git clone https://github.com/Sanjuav/PowerShell
 
 ```
 
-- Once the bug fix is resolved it is then implemented onto the Test_bugfix branch and tested.
-- The stable version of the script is then pushedOnce on to the Test_bugfix branch of the GitHub web repository
-- This Test_bugfix branch is then merged with the main barnch by performing a pull request.
+- Once the bug fix is resolved it is then implemented onto the Test_bugfix branch on the local machine and tested.
+- The stable version of the script is then pushed on to the Test_bugfix branch of the GitHub web repository
+- This Test_bugfix branch is then merged with the main branch by performing a pull request.
 
   ![image.png](https://github.com/Sanjuav/PowerShell/blob/d119d06abea9e0c2efb8eddc306714df92533d7c/Documentation/merging.jpg)
 
